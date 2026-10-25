@@ -1,0 +1,124 @@
+{
+  "protocol": {
+    "scenario": "extreme_diagonal_heterogeneity",
+    "train_dimensions": [
+      6,
+      8
+    ],
+    "test_dimensions": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "fixed_n_over_p": 1,
+    "fixed_rank": 1,
+    "first_seed": 20262001,
+    "num_seeds": 100,
+    "tasks_per_seed": 12,
+    "checkpoint": "checkpoints/panda_dimension_generalization.pt",
+    "metric": "relative squared Frobenius error"
+  },
+  "results": {
+    "6": {
+      "SCM": {
+        "mean": 0.6430173107520989,
+        "standard_error": 0.020048076675107482,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.29100804605365455,
+        "standard_error": 0.0070956334731184,
+        "tasks": 1200
+      }
+    },
+    "8": {
+      "SCM": {
+        "mean": 0.5452976161936631,
+        "standard_error": 0.014789336397040182,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.23961001190951747,
+        "standard_error": 0.005127502411350724,
+        "tasks": 1200
+      }
+    },
+    "10": {
+      "SCM": {
+        "mean": 0.486108053665285,
+        "standard_error": 0.011842408151515956,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.20209904611608057,
+        "standard_error": 0.004400869727988626,
+        "tasks": 1200
+      }
+    },
+    "12": {
+      "SCM": {
+        "mean": 0.4350126560636816,
+        "standard_error": 0.009396137353763358,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.18195853222438615,
+        "standard_error": 0.003557506203659994,
+        "tasks": 1200
+      }
+    },
+    "14": {
+      "SCM": {
+        "mean": 0.4201239347406287,
+        "standard_error": 0.008962021890855555,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.17198695929968408,
+        "standard_error": 0.003576360493664228,
+        "tasks": 1200
+      }
+    },
+    "16": {
+      "SCM": {
+        "mean": 0.4076399131300166,
+        "standard_error": 0.008090882869250506,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.15966091473290173,
+        "standard_error": 0.002956377528223526,
+        "tasks": 1200
+      }
+    },
+    "18": {
+      "SCM": {
+        "mean": 0.38483293956875086,
+        "standard_error": 0.007592230498618809,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.1509343159374131,
+        "standard_error": 0.0027821857114133895,
+        "tasks": 1200
+      }
+    },
+    "20": {
+      "SCM": {
+        "mean": 0.35891327553777286,
+        "standard_error": 0.007086677297554041,
+        "tasks": 1200
+      },
+      "PANDA": {
+        "mean": 0.14830753491474705,
+        "standard_error": 0.002811539797719326,
+        "tasks": 1200
+      }
+    }
+  }
+}
